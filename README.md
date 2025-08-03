@@ -20,9 +20,9 @@
 ```bash
 javac *.java
 java StrategyExportTest
+```
 
-
-輸出範例
+## 輸出範例
 txt
 複製
 編輯
@@ -36,9 +36,16 @@ title,content,createAt,labeling
  - Labeling: 工作
 
 
- 作者學習心得
+##  作者學習心得
 嘗試實作多種策略並切換匯出方式
 
 第一次用 exportAll 批次處理時卡住，後來靠 Copilot 引導與自己逐行理解解決
 
 收穫：學到策略模式、Java 介面、設計鬆耦合架構
+
+🔮 未來可擴充
+匯出為 HTML / PDF
+
+使用者輸入動態切換策略
+
+筆記分類、加密、搜尋功能
